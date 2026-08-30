@@ -1,6 +1,14 @@
 # Multi-MCU Autonomous RC Car
 
-A 4WD autonomous mobile-robot platform used to compare embedded control implementations across **Arduino Mega 2560**, **ESP32**, and **STM32F103C8T6 Blue Pill** hardware.
+## Prototype
+
+![RC Car Prototype](images/prototype/rc-car-overview.jpg)
+
+The first hardware revision was assembled using breadboards and jumper wiring
+to support rapid subsystem development and firmware testing.
+
+The next revision will replace the temporary wiring with soldered perfboard
+and ultimately a custom PCB designed for the Mega 2560, ESP32, and STM32F103.A 4WD autonomous mobile-robot platform used to compare embedded control implementations across **Arduino Mega 2560**, **ESP32**, and **STM32F103C8T6 Blue Pill** hardware.
 
 The same navigation architecture is retained across all three firmware ports: close-range IR protection, pan-mounted ultrasonic scanning, MPU6050 yaw feedback, L298N differential drive, manual/automatic operating modes, and a serial command interface.
 
